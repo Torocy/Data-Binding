@@ -13,5 +13,8 @@ btnStatus : boolean = false;
 
   ngOnInit() {
   }
+  changeTitle(){
+    this.pageTitle="Data Binding";
+  }
 
 }

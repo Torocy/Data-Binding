@@ -4,7 +4,8 @@ There are four different forms of data binding in Angular
 They are : 1. interpolation {{}}
            2. Property binding []..allows us to bind property of a view element to the value
             of a template expression
-           3. Event binding ()  
+           3. Event binding () ..allows component to listen to the events triggered by the user actions
+            in the view. 
            4. Two-way binding [()]
       Each form of binding has it's own syntax.
 These four forms of binding differ in the way data flow.
@@ -23,3 +24,6 @@ NOTE: Whenever you want to deal with string expression you can use interpolation
 <h3>Property Binding</h3>
 <img [src]="imageUrl">
 <button [disabled]="btnStatus">Click</button>
+
+<h3>Event Binding</h3>
+<button (click)="changeTitle()">Change Title</button>
