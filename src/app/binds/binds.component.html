@@ -17,6 +17,9 @@ NOTE: Whenever you want to deal with string expression you can use interpolation
 
 <h3>Examples of interpolation</h3>
 <h2>{{pageTitle}}</h2>
-<img src={{imageUrl}}/>
+<img src={{imageUrl}}/>  
+<button disabled={{btnStatus}}>Click</button>
+
 <h3>Property Binding</h3>
 <img [src]="imageUrl">
+<button [disabled]="btnStatus">Click</button>

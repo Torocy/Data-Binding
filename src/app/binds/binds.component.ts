@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BindsComponent implements OnInit {
 pageTitle: string ="DATA BINDING IN ANGULAR";
-imageUrl : string = "assets/images/image8.1.jpg"
+imageUrl : string = "assets/images/image8.1.jpg";
+btnStatus : boolean = false;
   constructor() { }
 
   ngOnInit() {
