@@ -27,3 +27,7 @@ NOTE: Whenever you want to deal with string expression you can use interpolation
 
 <h3>Event Binding</h3>
 <button (click)="changeTitle()">Change Title</button>
+
+<h3>Two way data binding</h3>
+<input type="text" [(ngModel)] = "username"/>
+<h4>Welcome {{username}}</h4>
