@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./binds.component.scss']
 })
 export class BindsComponent implements OnInit {
-
+pageTitle: string ="DATA BINDING IN ANGULAR";
+imageUrl : string = "assets/images/image8.1.jpg"
   constructor() { }
 
   ngOnInit() {

@@ -1,10 +1,9 @@
-<p>
-  binds works!
-</p>
+
 <!--Data binding coordinates the communication between a component class and a template view associated to it.
 There are four different forms of data binding in Angular
 They are : 1. interpolation {{}}
-           2. Property binding []
+           2. Property binding []..allows us to bind property of a view element to the value
+            of a template expression
            3. Event binding ()  
            4. Two-way binding [()]
       Each form of binding has it's own syntax.
@@ -12,5 +11,12 @@ These four forms of binding differ in the way data flow.
 So if you want data to display data from component to view, you use the interpolation and property binding
 if data flows from the view to component ,use event binding.
 Two way data binding is a combination of the property and event binding. it is a continuous synchronization 
-of data from view to the component and from component to the view.  -->
+of data from view to the component and from component to the view. 
+NOTE: Whenever you want to deal with string expression you can use interpolation but for non-string
+ expressions,you use property binding(that is where their differences come in.) -->
 
+<h3>Examples of interpolation</h3>
+<h2>{{pageTitle}}</h2>
+<img src={{imageUrl}}/>
+<h3>Property Binding</h3>
+<img [src]="imageUrl">
